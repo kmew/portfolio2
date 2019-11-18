@@ -7,17 +7,17 @@ const TitleBox = Styled.div`
     width: fit-content;
     height: fit-content;
     position: absolute;
-    left: 100px;
-    top: 250px;
+    left: 10vw;
+    top: 25vh;
 `
 
 
 const StyledTitle = Styled.p`
     margin: 0px;
     color: #EEBF93;
-    font-family: Segoe UI;
+    font-family: 'Open Sans', sans-serif;
     font-style: bold;
-    font-size: 90px;
+    font-size: 70px;
     width: fit-content;
     height: auto;
 `
@@ -25,9 +25,9 @@ const StyledTitle = Styled.p`
 const StyledHeader = Styled.p`
     margin: -30px 0px 0px 0px;
     color: #B1B1B1;
-    font-family: Segoe UI;
+    font-family: 'Open Sans', sans-serif;
     font-style: semi-bold;
-    font-size: 90px;
+    font-size: 70px;
     width: fit-content;
     height: auto;
 `

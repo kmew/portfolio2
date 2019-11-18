@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
 import Styled from 'styled-components'
 
-import Home from '../components/Home/home'
 import Nav from '../components/Nav/nav'
+import Home from '../components/Home/home'
+import About from '../components/About/about'
+import Work from '../components/Work/work'
+import Contact from '../components/Contact/contact'
 
 const Container = Styled.div`
   background: #181B2A;
@@ -19,6 +22,9 @@ class SinglePage extends Component {
       <Container>
         <Nav />
         <Home />
+        <About />
+        <Work />
+        <Contact />
       </Container>
     )
   }

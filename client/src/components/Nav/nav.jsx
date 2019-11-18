@@ -3,14 +3,14 @@ import Styled from 'styled-components'
 
 
 const NavBox = Styled.div`
-    position: absolute;
-    top: 20px;
-    right: 50px;
+    position: fixed;
+    top: 15px;
+    right: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 700px;
-    height: auto;
+    width: 40vw;
+    height: fit-content;
 `
 
 
@@ -20,11 +20,17 @@ const BGBox = Styled.div`
     height: 65px;
     blur: 8px;
     background-color: rgba(255,255,255,0.15);
+    z-index: -5;
+
+    @media (max-width: 1280px) {
+        height: 50px;
+        width: 420px;
+        height: 40px;
+    }
 `
 
 
 const MenuBox = Styled.div`
-    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -35,8 +41,8 @@ const MenuBox = Styled.div`
 
 const NavMenu = Styled.p`
     color: #26798E;
-    font-family: Segoe UI;
-    font-size: 48px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
     padding: 0px;
     margin: 0px;
 `

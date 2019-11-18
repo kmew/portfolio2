@@ -19,7 +19,7 @@ class Logo extends Component {
     render() { 
         return (
             <ImgBox>
-                <Img src="" alt="qwer" />
+                <Img src="/Users/tissatatcharoenchai/Desktop/trainee_init/work5/port_2/client/src/components/Home/elements/qwer.png" alt="qwer" />
             </ImgBox>
         )
     }

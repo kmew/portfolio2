@@ -7,8 +7,8 @@ const LogoBox = Styled.div`
     width: fit-content;
     height: fit-content;
     position: absolute;
-    bottom: 100px;
-    right: 400px;
+    top: 60vh;
+    right: 22vw;
 `
 
 
@@ -17,7 +17,7 @@ const QuoteLine = Styled.p`
     color: #B1B1B1;
     font-family: Georgia;
     font-style: Italic;
-    font-size: 40px;
+    font-size: 30px;
     width: fit-content;
     height: auto;
 `
